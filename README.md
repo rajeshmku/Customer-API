@@ -1,5 +1,11 @@
 # Customer-API
-Simple microservice using spring boot 
+Rest API specification using RAML for a simple Customer API project. 
+
+Folder contains the following files: 
+
+1. RAML - API specification document 
+2. Schema - Data type used to highlight the request & response body payloads/messages 
+3. Sample - Sample request & response body payloads/messages
 
 
 Business use cases:
