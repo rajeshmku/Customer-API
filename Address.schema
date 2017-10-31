@@ -1,0 +1,43 @@
+{
+  "type" : "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "required": true,
+  "properties" : { 
+      "firstLine": {
+        "type": "string",
+        "required": true,
+        "minLength": 5,
+        "maxLength": 60
+      }, 
+      "secondLine": {
+        "type": "string",
+        "required": false,
+        "minLength": 5,
+        "maxLength": 60
+      }, 
+      "suburb": {
+        "type": "string",
+        "required": true,
+        "minLength": 5,
+        "maxLength": 36
+      }, 
+      "postcode": {
+        "type": "number",
+        "required": true,
+        "minLength": 4,
+        "maxLength": 4
+      }, 
+      "country": {
+        "type": "string",
+        "required": true,
+        "minLength": 3,
+        "maxLength": 3
+      }, 
+      "city": {
+        "type": "string",
+        "required": true,
+        "minLength": 5,
+        "maxLength": 36
+      }
+  }
+}

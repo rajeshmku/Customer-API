@@ -1,0 +1,327 @@
+[
+    {
+        "customerID": "1",
+        "firstName": "Rajesh",
+        "lastName": "Dhoni",
+        "phone": "0412325743",
+        "email": "dhoni@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": [
+            {
+                "id": "SYD001",
+                "customerId": "1",
+                "productId": "APPLE_IPAD_PRO",
+                "orderDesc": "Apple ipad pro 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD002",
+                "customerId": "1",
+                "productId": "APPLE_IPHONE_8",
+                "orderDesc": "Apple iphone 8 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD003",
+                "customerId": "1",
+                "productId": "APPLE_IMAC_PRO",
+                "orderDesc": "Apple iMac Pro 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD004",
+                "customerId": "1",
+                "productId": "APPLE_TV",
+                "orderDesc": "Apple Tv 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            }
+        ]
+    },
+    {
+        "customerID": "1",
+        "firstName": "Rajesh",
+        "lastName": "Dhoni",
+        "phone": "0412325743",
+        "email": "dhoni@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": [
+            {
+                "id": "SYD001",
+                "customerId": "1",
+                "productId": "APPLE_IPAD_PRO",
+                "orderDesc": "Apple ipad pro 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD002",
+                "customerId": "1",
+                "productId": "APPLE_IPHONE_8",
+                "orderDesc": "Apple iphone 8 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD003",
+                "customerId": "1",
+                "productId": "APPLE_IMAC_PRO",
+                "orderDesc": "Apple iMac Pro 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD004",
+                "customerId": "1",
+                "productId": "APPLE_TV",
+                "orderDesc": "Apple Tv 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            }
+        ]
+    },
+    {
+        "customerID": "1",
+        "firstName": "Rajesh",
+        "lastName": "Dhoni",
+        "phone": "0412325743",
+        "email": "dhoni@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": [
+            {
+                "id": "SYD001",
+                "customerId": "1",
+                "productId": "APPLE_IPAD_PRO",
+                "orderDesc": "Apple ipad pro 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD002",
+                "customerId": "1",
+                "productId": "APPLE_IPHONE_8",
+                "orderDesc": "Apple iphone 8 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD003",
+                "customerId": "1",
+                "productId": "APPLE_IMAC_PRO",
+                "orderDesc": "Apple iMac Pro 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            },
+            {
+                "id": "SYD004",
+                "customerId": "1",
+                "productId": "APPLE_TV",
+                "orderDesc": "Apple Tv 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Raised"
+            }
+        ]
+    },
+    {
+        "customerID": "2",
+        "firstName": "James",
+        "lastName": "Vasanth",
+        "phone": "0412325743",
+        "email": "James@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": [
+            {
+                "id": "BRS001",
+                "customerId": "2",
+                "productId": "GOOGLE_PIXEL",
+                "orderDesc": "Google Pixcel phone 2017",
+                "orderDate": " 2017-10-31 07:42:36.527",
+                "orderStatus": "Processed"
+            },
+            {
+                "id": "BRS002",
+                "customerId": "2",
+                "productId": "GOOGLE_Nexus",
+                "orderDesc": "Google Nexus phone 2017",
+                "orderDate": " 2017-10-31 07:42:36.528",
+                "orderStatus": "Processed"
+            },
+            {
+                "id": "BRS003",
+                "customerId": "2",
+                "productId": "GOOGLE_HOME",
+                "orderDesc": "Google home device 2017",
+                "orderDate": " 2017-10-31 07:42:36.528",
+                "orderStatus": "Processed"
+            }
+        ]
+    },
+    {
+        "customerID": "3",
+        "firstName": "Rose",
+        "lastName": "Taylor",
+        "phone": "0412325743",
+        "email": "Rose@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": [
+            {
+                "id": "MEL001",
+                "customerId": "3",
+                "productId": "SAMSUNG_GALAXY_8",
+                "orderDesc": "Samsung galaxy edge 2017",
+                "orderDate": " 2017-10-31 07:42:36.528",
+                "orderStatus": "Completed"
+            },
+            {
+                "id": "MEL002",
+                "customerId": "3",
+                "productId": "SAMSUNG_TV",
+                "orderDesc": "Samsung television 2017",
+                "orderDate": " 2017-10-31 07:42:36.528",
+                "orderStatus": "Completed"
+            },
+            {
+                "id": "MEL003",
+                "customerId": "3",
+                "productId": "SAMSUNG_SOUND_BAR",
+                "orderDesc": "Samsung sound bar, 1300 watts",
+                "orderDate": " 2017-10-31 07:42:36.528",
+                "orderStatus": "Completed"
+            },
+            {
+                "id": "MEL004",
+                "customerId": "3",
+                "productId": "SAMSUNG_WATCH",
+                "orderDesc": "Samsung watch for Android mobiles",
+                "orderDate": " 2017-10-31 07:42:36.528",
+                "orderStatus": "Completed"
+            }
+        ]
+    },
+    {
+        "customerID": "4",
+        "firstName": "Saran",
+        "lastName": "Tiwari",
+        "phone": "0412325743",
+        "email": "Saran@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": []
+    },
+    {
+        "customerID": "5",
+        "firstName": "Abdul",
+        "lastName": "Rahmaan",
+        "phone": "0412325743",
+        "email": "Abdul@gmail.com",
+        "mailingAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "permanentAddress": {
+            "firstLine": "16/14-16",
+            "secondLine": "Allen Street",
+            "suburb": "Harris Park",
+            "postcode": 2150,
+            "country": "AUS",
+            "city": "Sydney"
+        },
+        "orders": []
+    }
+]

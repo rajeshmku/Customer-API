@@ -1,0 +1,143 @@
+#%RAML 1.0
+title: Customer API
+version: 1.0
+baseUri: http://localhost:8080/
+
+resourceTypes:
+  collection:
+    description: Collection of available customers in database.
+    get:
+      description: Get a list of 'customers'
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include customer-collection.sample
+              
+  collection-item:
+    description: Entity representing a customer|!singularize
+    get:
+      description: |
+        Get the customer details 
+        with cutomer.id = {id}
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include customer-collection-item.sample
+        404:
+          body:
+            application/json:
+              example: |
+                {"message": "Customer ID not found" }
+
+/costomers:
+  type: collection 
+  description: Customer collection, root element 
+  get:
+    description: Get the list of customers 
+    responses:
+     200:
+      body:
+       application/json:
+        example: { !include customer-collection.sample }
+         \{customerId}:
+         type: 
+          collection-item: 
+           example: !include customer-collection-item.sample
+         description: Customer entity
+         get:
+          description: to retrieve a particular customer from the list using ID
+          is: [
+            searchable: {
+              description: "with valid searchable fields: customerId", 
+              example: "{id}" 
+              },
+              orderable: {fieldList: "orderId"},
+              pageable]
+              
+          queryparameters: 
+            customerId: 
+              description: The unique id to fetch a specific customer from the collection
+              required: true
+              minLength: 1
+              type: string
+              example: 6 
+          responses:
+           200: 
+            body:
+             application/json:
+              example: !include customer-collection-item.sample
+           404: 
+            body:
+             application/json:
+              example: |
+              { "Customer not found" }
+         put:
+           description: Update a customer data 
+           queryparameters: 
+            customerId: 
+              description: The unique id to fetch a specific customer from the collection
+              required: true
+              minLength: 1
+              type: string
+              example: 6
+           responses: 
+           200:
+            body:
+            application/json:
+            example: 
+              Data updated successfully.
+         delete:
+           description: Delete a customer data 
+           queryparameters: 
+            customerId: 
+              description: The unique id to fetch a specific customer from the collection
+              required: true
+              minLength: 1
+              type: string
+              example: 6
+           responses: 
+           200:
+            body:
+             application/json:
+             example: 
+              Data deleted successfully 
+          /orders 
+          type: 
+           collection: 
+             exampleCollection: !include customer-order-collections.sample 
+             exampleItem: !include customer-order-collection-item.sample
+          description: Collection of orders for the selected customer 
+  post:
+    description: Enter the customer data/fields to create new Customer record
+    body: 
+      application/json:
+        type: 
+    responses: 
+      200:
+        body:
+          application/json:
+            example: | 
+              Data created successfully.
+  
+  
+
+/products:
+ description: collection of products and associated details 
+ get:
+  description: get the list of products 
+  responses:
+   200:
+    body:
+     application/json:
+      example: |
+       {
+        "products": [ 
+         {
+
+         }
+        ]
+       }
+
+        

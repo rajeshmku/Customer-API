@@ -1,0 +1,52 @@
+
+{
+"type" : "object",
+"$schema": "http://json-schema.org/draft-03/schema",
+"required": true,
+"properties" : 
+
+{
+        "customerID": {
+          "type": "decimal",
+          "required": true,
+          "minLength": 5,
+          "maxLength": 10
+        },
+        "firstName": {
+          "type": "string",
+          "required": true,
+          "minLength": 5,
+          "maxLength": 36
+        },
+        "lastName": {
+          "type": "string",
+          "required": true,
+          "minLength": 5,
+          "maxLength": 36
+        },
+        "phone": {
+          "type": "string",
+          "required": true,
+          "minLength": 10,
+          "maxLength": 10
+        },
+        "email": {
+          "type": "string",
+          "required": true,
+          "minLength": 5,
+          "maxLength": 36
+        },
+        "mailingAddress": {
+          "type": "Address.schema",
+          "required": true
+        },
+        "permanentAddress": {
+          "type": "Address.schema",
+          "required": false
+        },
+        "orders": {
+          "type": "Order.schema",
+          "required":false
+        }
+    }
+}

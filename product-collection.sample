@@ -1,0 +1,68 @@
+[
+    {
+        "id": "APPLE_IPAD_PRO",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 320.5
+    },
+    {
+        "id": "APPLE_IPHONE_8",
+        "type": "Electronic Device",
+        "name": "Apple iphone 8 2017",
+        "price": 820.5
+    },
+    {
+        "id": "APPLE_IMAC_PRO",
+        "type": "Electronic Device",
+        "name": "Apple iMac Pro 2017",
+        "price": 2320.5
+    },
+    {
+        "id": "APPLE_TV",
+        "type": "Electronic Device",
+        "name": "Apple Tv 2017",
+        "price": 120.5
+    },
+    {
+        "id": "GOOGLE_PIXEL",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 620.5
+    },
+    {
+        "id": "GOOGLE_Nexus",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 320.5
+    },
+    {
+        "id": "GOOGLE_HOME",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 120.5
+    },
+    {
+        "id": "SAMSUNG_GALAXY_8",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 720.5
+    },
+    {
+        "id": "SAMSUNG_TV",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 920.5
+    },
+    {
+        "id": "SAMSUNG_SOUND_BAR",
+        "type": "Electronic Device",
+        "name": "Apple ipad pro 2017",
+        "price": 820.5
+    },
+    {
+        "id": "SAMSUNG_WATCH",
+        "type": "Electronic Device",
+        "name": "Samsung watch for Android mobiles",
+        "price": 120.5
+    }
+]

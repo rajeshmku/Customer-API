@@ -1,0 +1,31 @@
+{
+"type" : "object",
+"$schema": "http://json-schema.org/draft-03/schema",
+"required": true,
+"properties" : {
+      "id": {
+        "type": "string",
+        "required": true,
+        "minLength": 5,
+        "maxLength": 36
+      },
+      "type": {
+        "type": "string",
+        "required": true,
+        "minLength": 5,
+        "maxLength": 20
+      },
+      "name": {
+        "type": "string",
+        "required": true,
+        "minLength": 5,
+        "maxLength": 36
+      },
+      "price": {
+        "type": "decimal",
+        "required": true,
+        "minLength": 2,
+        "maxLength": 10
+      }
+}
+}
